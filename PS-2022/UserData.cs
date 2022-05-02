@@ -24,7 +24,7 @@ namespace UserLogin
             testUser = new List<User>();
             testUser.Add(new User("alexandra", "121219092", "", UserRoles.ADMIN, new DateTime(2022, 1, 1)));
             testUser.Add(new User("alex123", "121219093", "", UserRoles.ADMIN, new DateTime(2022, 2, 2)));
-            testUser.Add(new User("123alex", "121219093", "121219093", UserRoles.STUDENT, new DateTime(2022, 3, 3)));
+            testUser.Add(new User("123alex", "121219093", "121219093", UserRoles.STUDENT, new DateTime(2022, 2, 9)));
         }
 
         public static void GetUsers()
@@ -56,6 +56,17 @@ namespace UserLogin
                     Logger.LogActivity("Role changed for " + username);
                 }
             }
+        }
+
+        public static User FindUserByFacultyNumber(string facN)
+        {
+            foreach (var user in TestUser)
+            {
+                if (user.facultyNumber == facN)
+                    return user;
+            }
+
+            return null;
         }
 
         public static void AssignUserRole(string username, UserRoles newRole)
