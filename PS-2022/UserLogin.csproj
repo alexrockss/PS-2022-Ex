@@ -6,4 +6,22 @@
     <RootNamespace>PS_2022</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="WPFhello\WPFhello\App.xaml" />
+    <None Remove="WPFhello\WPFhello\MainWindow.xaml" />
+    <None Remove="WPFhello\WPFhello\WPFhello.csproj" />
+    <None Remove="WPFhello\WPFhello\MyMessage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="WPFhello\WPFhello\App.xaml.cs" />
+    <Compile Remove="WPFhello\WPFhello\AssemblyInfo.cs" />
+    <Compile Remove="WPFhello\WPFhello\MyMessage.xaml.cs" />
+    <Compile Remove="WPFhello\WPFhello\MainWindow.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WPFhello\App.xaml" />
+    <None Include="WPFhello\MainWindow.xaml" />
+    <None Include="WPFhello\WPFhello.csproj" />
+    <None Include="WPFhello\MyMessage.xaml" />
+  </ItemGroup>
 </Project>
