@@ -18,10 +18,4 @@
     <Compile Remove="WPFhello\WPFhello\MyMessage.xaml.cs" />
     <Compile Remove="WPFhello\WPFhello\MainWindow.xaml.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="WPFhello\App.xaml" />
-    <None Include="WPFhello\MainWindow.xaml" />
-    <None Include="WPFhello\WPFhello.csproj" />
-    <None Include="WPFhello\MyMessage.xaml" />
-  </ItemGroup>
 </Project>
