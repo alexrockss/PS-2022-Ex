@@ -19,4 +19,7 @@
     <Compile Remove="WPFhello\WPFhello\MyMessage.xaml.cs" />
     <Compile Remove="WPFhello\WPFhello\MainWindow.xaml.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
 </Project>
