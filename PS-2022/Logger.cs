@@ -1,37 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace UserLogin
 {
-    static class Logger
+    public static class Logger
     {
-        private static List<string> currentSessionActiviies = new List<string>();
+        private static List<string> currentSessionActivities = new List<string>();
 
         public static void LogActivity(string activity)
         {
-            string activityLine = DateTime.Now + ";" + LoginValidation.CurrentUsername + ";" +
-                                  LoginValidation.CurrentUserRole + ";" + activity;
+            UserContext userContext = new UserContext();
 
-            if (File.Exists("test.txt") == true)
+            string activityLine = DateTime.Now + ";"
+                + LoginValidation.currentUserRole + ";"
+                + activity;
+
+            currentSessionActivities.Add(activityLine);
+
+            if (File.Exists("test.txt"))
             {
-                File.AppendAllText("test.txt", activityLine);
+                File.WriteAllText("test.txt", activityLine);
             }
 
-            currentSessionActiviies.Add(activityLine);
+            userContext.Logs.Add(new Log { Message = activity });
         }
 
-        public static string GetCurrentSessionActivities()
+        public static IEnumerable<string> GetCurrentSessionActivities(string filter)
         {
-            StringBuilder sb = new StringBuilder();
+            List<string> filteredActivities = (from activity in currentSessionActivities
+                                               where activity.Contains(filter)
+                                               select activity).ToList();
 
-            foreach (var curr in currentSessionActiviies)
-            {
-                sb.Append(curr);
-            }
+            return currentSessionActivities;
+        }
 
-            return sb.ToString();
+        public static IEnumerable<string> GetAllActivities()
+        {
+            return File.ReadAllLines("test.txt");
         }
     }
 }
