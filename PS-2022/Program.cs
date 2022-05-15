@@ -1,126 +1,129 @@
 ﻿using System;
-using System.IO;
+using System.Collections.Generic;
+using System.Text;
+using UserLogin;
 
-namespace UserLogin
+Console.OutputEncoding = Encoding.UTF8;
+
+Console.Write("Enter username: ");
+string? username = Console.ReadLine();
+
+Console.Write("Enter password: ");
+string? password = Console.ReadLine();
+
+LoginValidation validation = new LoginValidation(username, password, ActionOnError);
+
+User? user = null;
+
+if (validation.ValidateUserInput(ref user))
 {
-    class Program
+    Console.WriteLine(user.username);
+    Console.WriteLine(user.Password);
+    Console.WriteLine(user.facultyNumber);
+    Console.WriteLine((UserRoles)user.Role);
+    Console.WriteLine(user.Created);
+
+    switch (user.Role)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Enter username...");
-            string username = Console.ReadLine();
+        case 0:
+            Console.WriteLine($"Welcome, {(UserRoles)user.Role}");
+            break;
+        case 1:
+            Console.WriteLine($"Welcome, {(UserRoles)user.Role}");
+            Console.WriteLine();
 
-            Console.WriteLine("Enter password...");
-            string password = Console.ReadLine();
+            ShowAdminMenu();
+            int choice = int.Parse(Console.ReadLine());
 
-            User user = new User();
-            
-            if (new LoginValidation(username, password, Messages).ValidateUserInput(user))
+            switch (choice)
             {
-                Console.WriteLine(user.username);
-                Console.WriteLine(user.facultyNumber);
+                case 0:
+                    Console.WriteLine("Приятен ден!");
 
-                switch (LoginValidation.CurrentUserRole)
-                {
-                    case UserRoles.ANONYMOUS:
-                        Console.WriteLine("Anonymous user...");
-                        break;
-                    case UserRoles.ADMIN:
-                        Console.WriteLine("Administrator...");
-                        break;
-                    case UserRoles.INSPECTOR:
-                        Console.WriteLine("Inspector...");
-                        break;
-                    case UserRoles.PROFESSOR:
-                        Console.WriteLine("Professor...");
-                        break;
-                    case UserRoles.STUDENT:
-                        Console.WriteLine("Student...");
-                        break;
-                }
+                    return;
+                case 1:
 
-                Menu();
-            }
-        }
+                    Console.Write("Въведете потребителско име: ");
+                    string usernameForRole = Console.ReadLine();
 
-        public static void Menu()
-        {
-            while (true)
-            {
-                Console.WriteLine();
-                Console.WriteLine("Choose option:");
-                Console.WriteLine("0: Exit");
-                Console.WriteLine("1: Change role of user");
-                Console.WriteLine("2: Change activity of user");
-                Console.WriteLine("3: List of users");
-                Console.WriteLine("4: View log file");
-                Console.WriteLine("5: View current activity");
-                Console.WriteLine();
+                    Console.Write("Въведете новата роля (число): ");
+                    UserRoles newRole = (UserRoles)int.Parse(Console.ReadLine());
 
-                string option = Console.ReadLine();
-                int opt = -1;
-                int.TryParse(option, out opt);
+                    UserData.AssignUserRole(usernameForRole, newRole);
 
-                if (opt == 0 || opt == -1)
-                {
                     break;
-                }
-                else if (opt == 1)
-                {
-                    Console.WriteLine("Enter username");
-                    string name = Console.ReadLine();
-                    Console.WriteLine("Enter role: A->Admin, P->Professor, S-<Student, I->Inspector");
-                    string role = Console.ReadLine();
-                    UserRoles uRole = UserRoles.ANONYMOUS;
-                    switch (role)
-                    {
-                        case "A":
-                            uRole = UserRoles.ADMIN;
-                            break;
-                        case "P":
-                            uRole = UserRoles.PROFESSOR;
-                            break;
-                        case "S":
-                            uRole = UserRoles.STUDENT;
-                            break;
-                        case "I":
-                            uRole = UserRoles.INSPECTOR;
-                            break;
-                    }
-                    UserData.AssignUserRole(name, uRole);
-                }
-                else if (opt == 2)
-                {
-                    Console.WriteLine("Enter username");
-                    string name = Console.ReadLine();
-                    int year, month, day;
-                    Console.WriteLine("Enter year");
-                    year = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Enter month");
-                    month = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Enter day");
-                    day = int.Parse(Console.ReadLine());
-                    UserData.SetUserActiveTo(name, new DateTime(year, month, day));
-                }
-                else if (opt == 3)
-                {
-                    UserData.GetUsers();
-                }
-                else if (opt == 4)
-                {
-                    if (File.Exists("test.txt"))
-                        Console.WriteLine(File.ReadAllText("test.txt"));
-                }
-                else if (opt == 5)
-                {
-                    Console.WriteLine(Logger.GetCurrentSessionActivities());
-                }
-            }
-        }
+                case 2:
 
-        public static void Messages(string message)
-        {
-            Console.WriteLine(message);
-        }
+                    Console.Write("Въведете потребителско име: ");
+                    string usernameForStatus = Console.ReadLine();
+
+                    Console.Write("Въведете новата дата: ");
+                    DateTime resultDateTime;
+
+                    DateTime.TryParse(Console.ReadLine(), out resultDateTime);
+
+                    UserData.SetUserActiveTo(usernameForStatus, resultDateTime);
+
+                    break;
+                case 3:
+                    break;
+                case 4:
+
+                    StringBuilder logStringBuilder = new StringBuilder();
+                    IEnumerable<string> allActs = Logger.GetAllActivities();
+
+                    foreach (string act in allActs)
+                    {
+                        logStringBuilder.AppendLine(act);
+                    }
+
+                    Console.WriteLine(logStringBuilder.ToString());
+
+                    break;
+                case 5:
+
+                    StringBuilder sb = new StringBuilder();
+                    string filter = "user";
+                    IEnumerable<string> currentActs = Logger.GetCurrentSessionActivities(filter);
+
+                    foreach (string line in currentActs)
+                    {
+                        sb.Append(line);
+                    }
+
+                    Console.WriteLine(sb.ToString());
+
+                    break;
+                default:
+                    break;
+            }
+            break;
+        case 2:
+            Console.WriteLine($"Welcome, {(UserRoles)user.Role}");
+            break;
+        case 3:
+            Console.WriteLine($"Welcome, {(UserRoles)user.Role}");
+            break;
+        case 4:
+            Console.WriteLine($"Welcome, {(UserRoles)user.Role}");
+            break;
+        default:
+            Console.WriteLine("Error");
+            break;
     }
+}
+
+void ActionOnError(string errorMessage)
+{
+    Console.WriteLine($"{errorMessage}!");
+}
+
+void ShowAdminMenu()
+{
+    Console.WriteLine("Изберете опция:");
+    Console.WriteLine("1: Промяна на роля на потребител");
+    Console.WriteLine("2: Промяна на активност на потребител");
+    Console.WriteLine("3: Списък на потребителите");
+    Console.WriteLine("4: Преглед на лог на активност");
+    Console.WriteLine("5: Преглед на текущата активност");
 }

@@ -24,14 +24,14 @@ namespace UserLogin
         {
             UserContext context = new UserContext();
 
-            return context.Users.FirstOrDefault(u => u.UserName == username && u.Password == password);
+            return context.Users.FirstOrDefault(u => u.username == username && u.Password == password);
         }
 
         public static void SetUserActiveTo(string username, DateTime newExpireDate)
         {
             UserContext context = new UserContext();
 
-            User? user = context.Users.FirstOrDefault(u => u.UserName == username);
+            User? user = context.Users.FirstOrDefault(u => u.username == username);
 
             if (user != null)
             {
@@ -44,7 +44,7 @@ namespace UserLogin
         {
             UserContext context = new UserContext();
 
-            User? user = context.Users.FirstOrDefault(u => u.UserName == username);
+            User? user = context.Users.FirstOrDefault(u => u.username == username);
 
             if (user != null)
             {
@@ -66,11 +66,11 @@ namespace UserLogin
                     {
                         _testusers.Add(new User()
                         {
-                            UserName = "usertest1",
+                            username = "usertest1",
                             Role = 4,
                             Created = DateTime.Now,
                             AccountExpireDate = DateTime.MaxValue,
-                            FakNum = "12345",
+                            facultyNumber = "12345",
                             Password = "00000"
                         });
                     }
@@ -79,11 +79,11 @@ namespace UserLogin
                     {
                         _testusers.Add(new User()
                         {
-                            UserName = "useradmin",
+                            username = "useradmin",
                             Role = 1,
                             Created = DateTime.Now,
                             AccountExpireDate = DateTime.MaxValue,
-                            FakNum = "12345",
+                            facultyNumber = "12345",
                             Password = "00000"
                         });
                     }
@@ -92,11 +92,11 @@ namespace UserLogin
                     {
                         _testusers.Add(new User()
                         {
-                            UserName = "usertest2",
+                            username = "usertest2",
                             Role = 4,
                             Created = DateTime.Now,
                             AccountExpireDate = DateTime.MaxValue,
-                            FakNum = "12345",
+                            facultyNumber = "12345",
                             Password = "00000"
                         });
                     }

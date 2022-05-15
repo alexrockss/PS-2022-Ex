@@ -6,6 +6,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>PS_2022</RootNamespace>
   </PropertyGroup>
+	
+   <PropertyGroup>
+   <LangVersion>9.0</LangVersion>
+   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="WPFhello\WPFhello\App.xaml" />
