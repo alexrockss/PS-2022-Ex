@@ -1,0 +1,50 @@
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.exe
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.deps.json
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.runtimeconfig.json
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.pdb
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.csproj.AssemblyReference.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseItHome.g.cs
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseReport.g.cs
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\MainWindow.g.cs
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\App.g.cs
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt_MarkupCompile.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt_MarkupCompile.lref
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseItHome.baml
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseReport.baml
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\MainWindow.baml
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.g.resources
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.AssemblyInfoInputs.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.AssemblyInfo.cs
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\refint\ExpenseIt.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.pdb
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.genruntimeconfig.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\ExpenseIt\obj\Debug\net6.0-windows\ref\ExpenseIt.dll
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.exe
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.deps.json
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.runtimeconfig.json
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.dll
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\bin\Debug\net6.0-windows\ExpenseIt.pdb
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseItHome.g.cs
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseReport.g.cs
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\MainWindow.g.cs
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\App.g.cs
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt_MarkupCompile.cache
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt_MarkupCompile.lref
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseItHome.baml
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseReport.baml
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\MainWindow.baml
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.g.resources
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.AssemblyInfo.cs
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.dll
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\refint\ExpenseIt.dll
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.pdb
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ExpenseIt.genruntimeconfig.cache
+\\Mac\Home\Desktop\PS-2022\ExpenseIt\obj\Debug\net6.0-windows\ref\ExpenseIt.dll
