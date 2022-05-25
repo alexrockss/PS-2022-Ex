@@ -1,0 +1,33 @@
+﻿<Window x:Class="WPFhello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFhello"
+        mc:Ignorable="d"
+        Title="Студентска информационна система" Height="450" Width="800">
+    <Grid x:Name="MainGrid">
+        <Label x:Name="lbl_Title" Content="Hello, WPF!" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="176,10,0,0" FontWeight="Bold" FontFamily="Bahnschrift Condensed" RenderTransformOrigin="0.818,0.544" Width="135" Height="60"/>
+        <Label x:Name="lblName" Content="Име:" HorizontalAlignment="Left" Margin="138,89,0,0" VerticalAlignment="Top" Height="29" Width="34"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="176,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Height="28"/>
+        <Label x:Name="lblSecondName" Content="Име:" HorizontalAlignment="Left" Margin="138,122,0,0" VerticalAlignment="Top" Height="30" Width="34"/>
+        <TextBox x:Name="txtSecondName" HorizontalAlignment="Left" Margin="176,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Height="29"/>
+        <Label x:Name="lblThirdName" Content="Име:" HorizontalAlignment="Left" Margin="138,156,0,0" VerticalAlignment="Top" Height="29" Width="34"/>
+        <TextBox x:Name="txtThirdName" HorizontalAlignment="Left" Margin="176,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Height="28"/>
+        <Button x:Name="btn_Hello" Content="Здрасти!" HorizontalAlignment="Left" Margin="176,190,0,0" VerticalAlignment="Top" Click="btn_Hello_Click" Width="114" Height="22"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Background="#FF5AC4D8" TextWrapping="Wrap" Text="Hello, XAML!" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Bahnschrift SemiBold Condensed" Height="15" Width="84">
+            I edit XAML myself!
+        </TextBlock>
+        <Button VerticalAlignment="Top" Height="174" Click="Button_Click" Background="#FFC991BE" Margin="0,260,0,0" FontFamily="Bahnschrift Light" FontSize="36">
+            Click me!
+        </Button>
+        <ListBox x:Name="peopleListBox" IsSynchronizedWithCurrentItem="True" Width="139" Height="150" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,60,170,0">
+            <ListBoxItem Content="Mike"/>
+            <ListBoxItem Content="Lisa"/>
+            <ListBoxItem Content="John"/>
+            <ListBoxItem Content="Mary"/>
+        </ListBox>
+        <Button x:Name="greetingMsg" Content="Greeting" HorizontalAlignment="Right" Margin="0,220,170,0" VerticalAlignment="Top" Width="139" Click="greetingMsg_Click"/>
+    </Grid>
+</Window>
