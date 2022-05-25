@@ -1,0 +1,79 @@
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\test.txt
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\UserLogin.exe
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\UserLogin.deps.json
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\UserLogin.runtimeconfig.json
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\UserLogin.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\UserLogin.pdb
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\EntityFramework.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.CodeDom.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.Data.SqlClient.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.Drawing.Common.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.Security.Permissions.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.csproj.AssemblyReference.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.Migrations.Initial.resources
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.AssemblyInfoInputs.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.AssemblyInfo.cs
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.csproj.CopyComplete
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\refint\UserLogin.dll
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.pdb
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\UserLogin.genruntimeconfig.cache
+\\Mac\Home\Downloads\PS_30_Boris-master 2\UserLogin\obj\Debug\net6.0\ref\UserLogin.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\test.txt
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\UserLogin.exe
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\UserLogin.deps.json
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\UserLogin.runtimeconfig.json
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\UserLogin.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\UserLogin.pdb
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\EntityFramework.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.CodeDom.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.Drawing.Common.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.Security.Permissions.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.Migrations.Initial.resources
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.AssemblyInfo.cs
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.csproj.CopyComplete
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\refint\UserLogin.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.pdb
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\UserLogin.genruntimeconfig.cache
+\\Mac\Home\Desktop\PS-2022\UserLogin\obj\Debug\net6.0\ref\UserLogin.dll
+\\Mac\Home\Desktop\PS-2022\UserLogin\bin\Debug\net6.0\UserLogin.dll.config
